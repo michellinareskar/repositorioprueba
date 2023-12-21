@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIDAD2</title>
+    <link rel="stylesheet" href="/asset/css/estilos.css">
+</head>
+<body>
+    <div class="caja1">
+        <h1> DESENCRIPTADO DEL CABECILLA</h1>
+
+        <label >Kryptera Meddelande</label>
+        <input id="msgCodigo" type="text">
+        <br>
+        <br>
+        <button onclick="desencriptar()">Descifrar Nisqa</button>
+        <br>
+        <br>
+        <strong><label>Meddelande</label></strong>
+        <span id="demo2"></span>
+        <br>
+        <br>
+        <span id="error"></span>
+        <span id="demo1"></span>
+
+        <button class=" botoncontinuar"><a href="index.html" style="color: white;">Tu Es Mort</a></button>
+    </div>
+
+    <audio id="audio" autoplay src="/asset/media/sonido exorcista.mp3" type="audio/mpeg" >
+        tu navegador no es compatible con el audio de HTML              </audio>
+
+    <script>
+        function PlayAudio (){
+            document.getElementById ("audio").play();
+        }
+    </script>
+
+    <script src="/asset/js/script.js"></script>
+      
+</body>
+</html>
